@@ -1,0 +1,100 @@
+/* Hero */
+#contact .hero-content {
+  margin-top: 150px; }
+
+#contact .hero {
+  overflow: visible; }
+
+#contact .hero-text {
+  margin-top: 200px; }
+
+#contact .headline .paper-plane {
+  width: 22vw;
+  left: 8vw;
+  top: 0vw; }
+
+#contact .headline .mail-stand {
+  width: 5.5vw;
+  left: 8vw;
+  top: 21vw; }
+
+#contact .headline .message {
+  width: 6vw;
+  right: 20vw;
+  top: 5vw; }
+
+#contact .headline .cup {
+  width: 11vw;
+  right: 5vw;
+  top: 22.5vw; }
+
+#contact .headline .circle-1 {
+  background: rgba(250, 184, 196, 0.18);
+  width: 26.25vw;
+  height: 26.25vw;
+  left: 22vw;
+  top: 2vw; }
+
+#contact .keyboard {
+  width: 55%;
+  margin-top: 30px;
+  text-align: center; }
+
+/* Chat */
+#chat {
+  padding: 3vw; }
+  #chat iframe #tidio-chat-iframe {
+    display: block; }
+
+/* Clients */
+#clients {
+  padding-top: 8vw; }
+  #clients .clients-container {
+    margin-top: 5vw; }
+  #clients .clients-container img {
+    width: 100%;
+    filter: grayscale(95%); }
+  #clients .clients-logo {
+    padding: 4vw 5vw 3vw 5vw;
+    border: 1px solid #D7DBF2; }
+  #clients .ball {
+    width: 8vw;
+    height: 8vw;
+    left: -5vw;
+    top: -5vw; }
+  #clients .cubes {
+    width: 14vw;
+    height: 14vw;
+    right: -7vw;
+    top: -9vw; }
+  #clients .radius-top-left {
+    border-top-left-radius: 2.5rem; }
+  #clients .radius-top-right-desktop {
+    border-top-right-radius: 2.5rem; }
+  #clients .radius-bottom-left-desktop {
+    border-bottom-left-radius: 2.5rem; }
+  #clients .radius-bottom-right {
+    border-bottom-right-radius: 2.5rem; }
+
+.contact-heading {
+  margin-bottom: 2vw; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  /* Setting Spaces */
+  .hero-content {
+    margin-top: 0 !important; }
+  .hero-text {
+    margin-top: 4rem !important; }
+  #projects .hero-text {
+    margin-top: -1vw; }
+  #projects .hero-content {
+    margin-top: -2rem; }
+  .radius-top-right-desktop {
+    border-top-right-radius: 0 !important; }
+  .radius-bottom-left-desktop {
+    border-bottom-left-radius: 0 !important; }
+  .radius-top-right-mobile {
+    border-top-right-radius: 2.5rem; }
+  .radius-bottom-left-mobile {
+    border-bottom-left-radius: 2.5rem; } }
