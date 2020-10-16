@@ -404,17 +404,17 @@
     top: 3vw;
     z-index: -1; }
   #what_we_do .keys {
-    width: 8vw;
-    right: 15.6vw;
-    top: 5vw;
+    width: 7vw;
+    left: 40.6vw;
+    top: 8vw;
     z-index: -1; }
   #what_we_do .cup {
-    width: 13vw;
-    right: 18vw;
-    bottom: 1vw; }
+    width: 11vw;
+    left: 45vw;
+    bottom: 0vw; }
   #what_we_do .cubes {
     width: 12vw;
-    right: -3.1vw;
+    right: 0vw;
     top: 5vw;
     transform: rotate(-125deg); }
   #what_we_do .curve-line-4 {
@@ -449,7 +449,7 @@
   #our_secret .code {
     width: 10vw;
     right: 14vw;
-    bottom: 13vw;
+    bottom: 6vw;
     transform: rotate(70deg); }
   #our_secret .circle-1 {
     background: rgba(250, 184, 196, 0.4);
