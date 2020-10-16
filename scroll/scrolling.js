@@ -892,6 +892,9 @@
                 }
             },
             mouseleave: function(){
+                $(this).find('.pp-tooltip').fadeOut(200, function() {
+                    $(this).remove();
+                });
             }
         }, '#pp-nav li');
 
