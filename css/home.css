@@ -10,7 +10,8 @@
 
 .hero-content .container {
   margin-bottom: 11vw;
-  position: relative; }
+  position: relative;
+  border: 1px solid red; }
 
 .heart-string {
   position: absolute;
